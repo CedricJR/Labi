@@ -266,8 +266,7 @@ array2[i][j][5]= *position;
 
 int menu()
 {
-int y=1;
-intn;
+char choice;
 	system("clear");
 	system("PS1");
 
@@ -275,48 +274,25 @@ intn;
 	printf(ANSI_COLOR_RED "\033[4mBienvenue dans notre jeu de labyrinthe.\033[0m"  );
 	
 	printf("\n\nVoulez vous jouer en mode manuel ? y/n\t");
-
+	scanf("%c", &choice);
+	if (choice == 'y')
+	{	
+		printf("\nLes deplacements sont :\n'z' pour le haut\n'd'pour la droite\n'q' pour la gauche \n's' pour le bas");
 	
-
-
-	if (scanf("%c", &y)=='y')
-	{
-	
-	printf("\nLes deplacements sont :\n'z' pour le haut\n'd' pour la droite\n'q' pour la gauche \n's' pour le bas");
-
-	show_labyrinthe();
-	direction();
+		show_labyrinthe();
+		direction();
 	
 	}
 	
 	else
 	{
-
 		printf("ptetre une autre fois (ToT)");
-
-
-
-
 	}
-
-
-
-
-return 0;
+	return 0;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////
-
-
 int main() 
-{ 
-	
-	 menu();
-	key_pressed();
-	
-	
-	
-	
-	
-
-		
+{ 	
+	menu();
+	key_pressed();	
 }

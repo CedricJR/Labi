@@ -1,0 +1,11 @@
+10 10 0 0 9 9
+MM-M M--M M--- M-M- M-M- M-M- M-M- M-M- M--M MMM-
+-M-M -M-M -M-M M--M M-M- MM-- M--M M-M- --M- MMM-
+--MM -MM- -M-M -M-M M--M -M-- -M-M M--M MM-- MM-M
+M--M M-M- --M- -M-- -M-M -M-M -M-M -MMM -M-M -M-M
+---M MM-- M-MM -MM- -M-M -M-M --MM M-M- -MM- -M-M
+-M-M --MM M-M- MM-- -MMM --MM M-M- M-M- MM-- -M-M
+-M-M M--M MM-- --MM M-M- M-M- M--- MMM- -M-M -M-M
+-M-M -MMM -M-M M--M M-M- MM-- --MM MMM- ---M -MM- 
+--MM M--- -MM- --MM MMM- ---M M-M- M-M- --M- MM-- 
+M-MM -MM- M-MM M-M- M-M- --M- M-M- MMM- M-MM -M--
